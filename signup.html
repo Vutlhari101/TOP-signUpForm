@@ -11,66 +11,76 @@
 <body>
     <div class="container">
         <div class="banner">
-            <div class="strip"><span class="logo"><img src="https://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"></span>ODIN</div>
+            <div class="strip"><span class="logo"><img
+                        src="https://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"></span>ODIN
+            </div>
         </div>
-    </div> 
 
-    <div class="form">
-        <div class="brief">
-            <p>This is not a real online service! You know
-                you need something like this in your life to help you
-                realize your deepest dreams.
-            </p>
-            <p>Sign up <em>now</em> to get started.</p>
-            <br>
-            <p>You <em>know</em> you want to.</p>
+        <div class="form">
+            <div class="brief">
+                <p>This is not a real online service! You know
+                    you need something like this in your life to help you
+                    realize your deepest dreams.
+                </p>
+                <p>Sign up <em>now</em> to get started.</p>
+                <br>
+                <p>You <em>know</em> you want to.</p>
 
-            <form action="#" method="get">
-                <fieldset>
-                    <legend>Let's do this!</legend>
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend style="font-size: larger; font-weight: 900;">Let's do this!</legend>
+                        <div class="form">
+                            <div class="left">
+                                <div>
+                                    <label for="fName">FIRST NAME</label>
+                                    <br>
+                                    <input type="text" name="fName" id="fName" placeholder="John">
+                                </div>
 
-                    <div class="left">
-                        <div>
-                            <label for="fName">FIRST NAME</label>
-                            <input type="text" name="fName" id="fName" placeholder="John">
+                                <div>
+                                    <label for="email">EMAIL</label>
+                                    <br>
+                                    <input type="text" name="email" id="email" placeholder="email@domain">
+                                </div>
+
+                                <div>
+                                    <label for="password">PASSWORD</label>
+                                    <br>
+                                    <input type="password" name="password" id="password">
+                                </div>
+                            </div>
+
+                            <div class="right">
+                                <div>
+                                    <label for="lName">LAST NAME</label>
+                                    <br>
+                                    <input type="text" name="lName" id="lName" placeholder="Smith">
+                                </div>
+
+                                <div>
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <br>
+                                    <input type="text" name="phone" id="phone" minlength="10"
+                                        placeholder="012 345 5676">
+                                </div>
+
+                                <div>
+                                    <label for="confPAss">CONFIRM PASSWORD</label>
+                                    <br>
+                                    <input type="password" name="confPAss" id="confPAss">
+                                </div>
+                            </div>
                         </div>
+                    </fieldset>
 
-                        <div>
-                            <label for="email">EMAIL</label>
-                            <input type="text" name="email" id="email" placeholder="email@domain">
-                        </div>
-
-                        <div>
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
-                        </div>
-                    </div>
-
-                    <div class="right">
-                        <div>
-                            <label for="lName">LAST NAME</label>
-                            <input type="text" name="lName" id="lName" placeholder="Smith">
-                        </div>
-
-                        <div>
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="text" name="phone" id="phone" minlength="10" placeholder="012 345 5676">
-                        </div>
-
-                        <div>
-                            <label for="confPAss">CONFIRM PASSWORD</label>
-                            <input type="password" name="confPAss" id="confPAss">
-                        </div>
-                    </div>
-
-
-                </fieldset>
-
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="#">Log in</a></p>
-            </form>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </form>
+            </div>
         </div>
     </div>
+
+
 </body>
 
 </html>
